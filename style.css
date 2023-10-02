@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(6, 155, 189);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 30%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 31px;
+    font-weight: bolder;
+    font-size: 44px;
+    color: white;
+}
+p{
+    padding: 10px;
+    border: .3px solid black;
+    border-radius: 5px;
+    background-color:rgb(74, 187, 213);
+    box-shadow: 0px 1px 35px white;
+}
+.inp{
+    width:100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(104, 215, 240);
+    border: 1px solid rgb(104, 215, 240);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size: 40px;
+}
+.expression{
+    width:100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(104, 215, 240);
+    border: 1px solid rgb(104, 215, 240);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.kye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    background-color: black; 
+    box-shadow: 0px 8px 31px white;   
+}
+section > input{
+
+    width: 99%;
+    height: 80px;
+}
+div{
+    width: 25%;
+}
+button{
+    width: 100%;
+    padding: 13px;
+    color: white;
+    background-color: rgb(27, 20, 20);
+}
+.button:hover{
+    background-color: rgb(5, 187, 187);
+}
+.equal{
+    height: 98px;
+}
+.LastColumn >button{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width:600px) {
+    .content{
+        width: 100%;
+    }
+    
+}
